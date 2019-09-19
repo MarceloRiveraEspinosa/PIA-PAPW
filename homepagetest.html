@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/blog-home.css" rel="stylesheet">
+    <link href="css/homepagetest.css" rel="stylesheet">
+
+
+ <style></style>
+
+  </head>
+
+  <body background="images/backpost.png">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#" >Games and More</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log In</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link"  href="signform.html" style="width:auto;">Create Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="check.html">Shopping Cart</a>
+            </li>
+             <li>
+              <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Category Menu</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+     <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </li>
+
+                <li>
+                <h3>Select Category</h3>
+                </li>
+
+                <li>
+                    <a href="#">Clothing</a>
+                </li>
+                <li>
+                    <a href="#">Music,Games,Movies</a>
+                </li>
+                <li>
+                    <a href="#">Health and Beauty</a>
+                </li>
+                <li>
+                    <a href="#">Food and Groceries </a>
+                </li>
+                <li>
+                    <a href="#">Electronics</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+
+   <!-- login test -->
+   <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!--Create Account -->
+
+
+
+
+          
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-12">
+
+          <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="images/god.jpg"" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="images/uncharted.jpg"" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="images/assasin2.jpg"" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="images/resident.jpg"" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <div class="card my-4">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="prod.html"><img class="card-img-top" src="images/spider.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Spider-Man</a>
+                  </h4>
+                  <h5>$59.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/horizon.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Horizon Zero Dawn</a>
+                  </h4>
+                  <h5>$59.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/assasin.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Assasins Creed Odyssey</a>
+                  </h4>
+                  <h5>$39.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/war.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">God of War</a>
+                  </h4>
+                  <h5>$49.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/red.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Red Dead Redemption</a>
+                  </h4>
+                  <h5>$59.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/fifa.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">FIFA 19</a>
+                  </h4>
+                  <h5>$59.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/cod.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Call of duty Black Ops 4</a>
+                  </h4>
+                  <h5>$59.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/last.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">The Last of Us Remastered</a>
+                  </h4>
+                  <h5>$59.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/madden.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Madden 19</a>
+                  </h4>
+                  <h5>$59.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/nioh.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Nioh</a>
+                  </h4>
+                  <h5>$29.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/shadow.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Shadow of the Colossus</a>
+                  </h4>
+                  <h5>$24.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/quest.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Dragon Quest XI</a>
+                  </h4>
+                  <h5>$59.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <!-- /.row -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Games 2018</p>
+<div class="text-white">        
+<h6>Info</h6>
+<ul>
+  <li>Telefono: 8188000</li>
+  <li>locacion: Avenida 010, Col. Ha</li>
+</ul>  
+</div>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+    <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+ <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
+
+  </body>
+
+</html>

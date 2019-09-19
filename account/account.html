@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blog Post - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/blog-post.css" rel="stylesheet">
+
+    <style>
+ body{
+  background-position: center; 
+  background-repeat:no-repeat;
+  background-image:url(theback2.jpg);
+   background-size:cover;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+#imagelabel{
+font-weight: bold;
+}
+
+
+#imagepath{
+    padding: 10px;
+    background: #80dfff; 
+    display: table;
+    color: white;
+    border-radius: 5px;
+
+     }
+
+
+
+#imagepath2[type="file"] {
+    display: none;
+}
+
+#pricetag{
+   width: 15%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+#colrow {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.columnv {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.rowv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+     </style>
+
+  </head>
+
+  <body >
+
+    <!-- Navigation -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Games and More</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="C:/Users/Rivera/Desktop/PAPw/Proyecto/homepage/homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="C:/Users/Rivera/Desktop/PAPw/Proyecto/homepage/item/check.html">Shopping Cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-md-8">
+
+          <!-- Title -->
+          <h1 class="mt-4">Account Information</h1>
+
+          <!-- Author -->
+
+          <!-- Preview Image -->
+          <img class="rounded-circle img-fluid d-block mx-auto" src="dart.png" alt="">
+
+          <hr>
+
+          <h2>Pedro Peterson</h2>
+                    <p><strong>About: </strong> Vendedor de Juegos / UI. </p>
+                    <p><strong>Hobbies: </strong> Read, out with friends, listen to music, draw and learn new things. </p>
+
+                    <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Product Sold</th>
+                        <th>Quantity</th>
+                        <th class="text-center">Price</th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-sm-8 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="C:/Users/Rivera/Desktop/PAPw/Proyecto/homepage/item/prod.html"> <img class="media-object" src="spider.jpg" style="width: 45px; height: 60px;"> </a>
+                            <div class="media-body">
+                                <h3 id="producttitle" class="media-heading" style="text-align: center"><a>Spider-Man</a></h3>
+                          </div>
+                        </div></td>
+                        <td class="col-sm-1 col-md-1" style="text-align: center">
+                        <input type="email" class="form-control" value="1">
+                        </td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>$59.99</strong></td>
+                        <td class="col-sm-1 col-md-1">
+                    </tr>
+                   <tr>
+                        <td class="col-sm-8 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left"> <img class="media-object" src="war.jpg" style="width: 45px; height: 60px;"> </a>
+                            <div class="media-body">
+                                <h3 id="producttitle" class="media-heading" style="text-align: center"><a>God of War</a></h3>
+                          </div>
+                        </div></td>
+                        <td class="col-sm-1 col-md-1" style="text-align: center">
+                        <input type="email" class="form-control" value="1">
+                        </td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>$59.99</strong></td>
+                        <td class="col-sm-1 col-md-1">
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+      </div>
+
+ <div class="col-md-4">
+
+        
+          <div class="card my-4">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+            </div>
+
+               <h5 class="card-header">Categories</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="C:/Users/Rivera/Desktop/PAPw/Proyecto/homepage/account/historial.html">Historial</a>
+                    </li>
+                    <li>
+                      <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Vender</a>
+                    </li>
+                    <li>
+                      <a href="#">Borrador</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Product Information</h1>
+      <p>Please fill in this form to sell your product.</p>
+      <hr>
+      <label for="pname"><b>Product Name</b></label>
+      <input type="text" placeholder="Enter Name" name="pname" required>
+
+      <label for="desc"><b>Product Description</b></label>
+      <input type="text" placeholder="Enter Description" name="desc" required>
+
+      <label for="pcat"><b>Category:</b></label>
+      <br>
+      <input type="checkbox" name="clothes" value="Clothing">Clothing
+      <br>
+      <input type="checkbox" name="games" value="Music,Games,Movies">Music,Games,Movies
+      <br>
+      <input type="checkbox" name="health" value="Health and Beauty">Health and Beauty
+      <br>
+      <input type="checkbox" name="food" value="Food and Groceries">Food and Groceries 
+      <br>
+      <input type="checkbox" name="elec" value="Electronics">Electronics
+      <br>
+      <br>
+
+      <label for="pname"><b>Price:</b></label>
+      <input id="pricetag" type="text" placeholder="Enter Price" name="pprice" required>
+      <br>
+
+       <label for="pcan"><b>Quantity:</b></label>
+      <input type="number" name="quantity" min="1" max="99">
+      <br>
+      <br>
+
+      <div id="colrow" class="rowv">
+      <div class="columnv">
+      <label id="imagelabel">Select an Image</label>
+      <label id="imagepath">Select File <input type="file" id="imagepath2"" required></label></div>
+      <div class="columnv" >
+      <label id="imagelabel">Select an Image</label>
+      <label id="imagepath">Select File <input type="file" id="imagepath2"" required></label></div>
+      <div class="columnv">
+      <label id="imagelabel">Select an Image</label>
+      <label id="imagepath">Select File <input type="file" id="imagepath2"" required></label></div>
+      </div>
+    
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sell Product</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+   
+    <!-- Footer -->
+     <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Games 2018</p>
+<div class="text-white">        
+<h6>Info</h6>
+<ul>
+  <li>Telefono: 8188000</li>
+  <li>locacion: Avenida 010, Col. Ha</li>
+</ul>  
+</div>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+  </body>
+
+</html>

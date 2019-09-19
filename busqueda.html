@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/blog-home.css" rel="stylesheet">
+    <link href="css/homepagetest.css" rel="stylesheet">
+
+
+ <style>
+#backcheck{
+  color:black;
+background-color: white;
+
+  }
+  
+#checkcolor {
+  color: white;
+
+
+
+ </style>
+
+  </head>
+
+  <body background="images/backpost.png">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#" >Games and More</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log In</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link"  href="signform.html" style="width:auto;">Create Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="check.html">Shopping Cart</a>
+            </li>
+             <li>
+              <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Filters</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+     <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </li>
+
+                <li>
+                <h3>Filters</h3>
+                </li>
+                <li>
+                <a href="#" id="backcheck">Category</a>   
+                <form action="/action_page.php">
+                  <br>
+                  <input type="checkbox" name="cloth" value="Clothi"><label id="checkcolor">Clothing</label> <br>
+                  <input type="checkbox" name="mgm" value="MuGaMo"><label id="checkcolor">Music,Games,Movie</label>s<br>
+                  <input type="checkbox" name="hb" value="HeBe"><label id="checkcolor">Health and Beauty</label><br>
+                  <input type="checkbox" name="elec" value="Elect"><label id="checkcolor">Electronics</label><br>
+                </form>
+
+                <a href="#" id="backcheck">Precio</a>   
+                <form action="/action_page.php">
+                  <br>
+                  <input type="checkbox" name="0-100" value="0-100"><label id="checkcolor">$0 - $100</label> <br>
+                  <input type="checkbox" name="100-200" value="100-200"><label id="checkcolor">$100 - $200</label>s<br>
+                  <input type="checkbox" name="200-300" value="200-300"><label id="checkcolor">$200 - $300</label><br>
+                  <input type="checkbox" name="300-400" value="300-400"><label id="checkcolor">$300 - $400</label><br>
+                  <input type="checkbox" name="400-500" value="400-500"><label id="checkcolor">$400 - $500</label><br>
+
+                </form>
+
+                </li>
+                
+            </ul>
+        </div>
+      </div>
+
+     
+
+   <!-- login test -->
+   <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!--Create Account -->
+<div class="container"> 
+  <div class="col-lg-12">
+    <div class="row"> 
+      <div class="col">
+        
+        <div class="card my-4">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="prod.html"><img class="card-img-top" src="images/spider.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Spider-Man</a>
+                  </h4>
+                  <h5>$59.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/horizon.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Horizon Zero Dawn</a>
+                  </h4>
+                  <h5>$59.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/assasin.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Assasins Creed Odyssey</a>
+                  </h4>
+                  <h5>$39.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/war.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">God of War</a>
+                  </h4>
+                  <h5>$49.99</h5>
+                  <p class="card-text">Ejemplo de parrafo en donde va a haber una pequeña descripcion del producto.</p>
+                </div>
+                <div class="card-footer">
+                  <a id="nobutton" href="check.html">Add to Cart</a>
+                </div>
+              </div>
+      </div> 
+
+   </div> 
+</div>
+  </div>
+   
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Games 2018</p>
+<div class="text-white">        
+<h6>Info</h6>
+<ul>
+  <li>Telefono: 8188000</li>
+  <li>locacion: Avenida 010, Col. Ha</li>
+</ul>  
+</div>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+    <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+ <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
+
+
+
+  </body>
+
+</html>
